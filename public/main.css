@@ -1,0 +1,115 @@
+body{
+    background-color: pink;
+}
+
+
+.container-fluid{
+    display: flex;
+    background-color: rgb(28, 26, 26);
+    padding: 30px;
+  
+}
+  
+.navbar-brand{
+    color: rgb(252, 238, 238);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 8px;
+    margin-right: 50px;
+}
+
+
+.navbar-toggler-icon{
+    background-color: aliceblue;
+}
+
+
+
+.nav-link {
+    color: white !important;
+
+    margin: 0 25px;
+}
+
+.nav-link.active {
+    color: white !important;
+}
+
+.abouth1{
+  color: rgb(177, 28, 5);
+  padding: 40px;
+  text-align: center;
+  font-size:70px;
+}
+
+
+.palabout{
+ margin: 20px 50px 0 50px ;
+ color: rgb(77, 55, 81);
+}
+
+.container{
+ text-align: center;
+ padding-top: 200px;
+}
+
+.btn{
+    background-color:  rgb(77, 55, 81);
+    border: 0;
+}
+
+.homedap{
+    color: azure;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid;
+}
+
+/* .homedap{
+    color: azure;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+  }
+   */
+
+                                                              /* this is for the form page css */
+
+.rrone{
+    display:block;
+    justify-items: center;
+    text-align: center;
+    margin-top: 100px;
+
+    
+}
+
+.form-label{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control{  
+    margin: 10px;
+        width: 300px;      /* square or rectangle width */
+        height: 50px;     /* height */   
+     display: flex;
+     justify-items: center;
+    }
+
+
+
+
+.shayarida{
+    display: block;
+    justify-items: flex-start;
+    margin: 10px;
+}
+
+
+.inputq {
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+  

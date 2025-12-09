@@ -1,0 +1,34 @@
+<%- include('partials/header') %>
+
+
+
+<div class="container shayarida py-0 my-10">
+  <h1 class="mb-4">All Shayaris</h1>
+
+  <% if (shayaris.length === 0) { %>
+    <p>No shayaris yet. Be the first to write one!</p>
+  <% } else { %>
+    <% shayaris.forEach(function(item, index) { %>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title hulu"><%= item.name %></h5>
+          <p class="card-text"><%= item.text %></p>
+
+          <a href="/shayaris/<%= index %>/edit" class="btn btn-sm btn-secondary "> Edit </a>
+
+          <form action="/shayaris/<%= index %>/delete" method="post" style="display:inline;">
+            <button type="submit" class=" " >Delete</button>
+          </form>
+        </div>
+      </div>
+    <% }) %>
+  <% } %>
+</div>
+
+
+
+
+
+
+
+<%- include('partials/footer') %>
